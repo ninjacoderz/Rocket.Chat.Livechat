@@ -1,9 +1,6 @@
 {
 	"name": "@rocket.chat/livechat",
-	"version": "1.1.6",
-	"files": [
-		"/build"
-	],
+	"version": "1.2.0-develop",
 	"license": "MIT",
 	"repository": {
 		"type": "git",
@@ -124,5 +121,10 @@
 		"hooks": {
 			"pre-commit": "run-s i18n && git add -A src/i18n"
 		}
+	},
+	"houston": {
+		"updateFiles": [
+			"package.json"
+		]
 	}
 }
