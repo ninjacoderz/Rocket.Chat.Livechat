@@ -42,7 +42,7 @@ export const store = new Store(initialState, { dontPersist: ['messages', 'typing
 if (process.env.NODE_ENV === 'development') {
 	store.on('change', (state, prevState, partialState) => {
 		// eslint-disable-next-line no-console
-		console.log('%cstore.setState %c%o', 'color: blue', 'color: initial', partialState);
+		//console.log('%cstore.setState %c%o', 'color: blue', 'color: initial', partialState);
 	});
 }
 
